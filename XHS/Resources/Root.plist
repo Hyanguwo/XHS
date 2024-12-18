@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>小函书 - 关键词自动回复</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>com.hyangu.xhsautoreply</string>
+            <key>key</key>
+            <string>isEnabled</string>
+            <key>label</key>
+            <string>启用自动回复</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSEditTextCell</string>
+            <key>defaults</key>
+            <string>com.hyangu.xhsautoreply</string>
+            <key>key</key>
+            <string>customReply</string>
+            <key>label</key>
+            <string>自定义回复</string>
+            <key>placeholder</key>
+            <string>输入自定义回复内容</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSliderCell</string>
+            <key>default</key>
+            <real>2.0</real>
+            <key>defaults</key>
+            <string>com.yourname.xhsautoreply</string>
+            <key>key</key>
+            <string>replyDelay</string>
+            <key>min</key>
+            <real>1.0</real>
+            <key>max</key>
+            <real>10.0</real>
+            <key>showValue</key>
+            <true/>
+            <key>label</key>
+            <string>回复延迟(秒)</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>关键词回复设置</string>
+            <key>footerText</key>
+            <string>格式：关键词=回复内容，每行一组</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSTextViewCell</string>
+            <key>defaults</key>
+            <string>com.hyangu.xhsautoreply</string>
+            <key>key</key>
+            <string>keywordReplies</string>
+            <key>label</key>
+            <string>关键词回复设置</string>
+            <key>default</key>
+            <string>推荐=感谢推荐
+分享=谢谢分享
+好看=确实不错
+打卡=已打卡</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>关于插件</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSStaticTextCell</string>
+            <key>label</key>
+            <string>作者：函数诗</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSStaticTextCell</string>
+            <key>label</key>
+            <string>联系方式：iiiyuayu</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSStaticTextCell</string>
+            <key>label</key>
+            <string>使用说明：三指双击打开设置</string>
+        </dict>
+    </array>
+    <key>title</key>
+    <string>小函书</string>
+</dict>
+</plist> 

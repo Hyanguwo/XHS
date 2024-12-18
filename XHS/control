@@ -1,0 +1,10 @@
+Package: com.hyangu.xhsautoreply
+Name: 小函书
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: 小红书关键词自动回复插件
+Maintainer: 函数诗
+Author: 函数诗
+Homepage: https://iiiyuayu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000) 
